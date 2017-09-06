@@ -9,7 +9,6 @@ option java_outer_classname = "DynamicsProtos";
 import "roboception/msgs/time.proto";
 import "roboception/msgs/pose.proto";
 import "roboception/msgs/vector3d.proto";
-import "roboception/msgs/quaternion.proto";
 import "roboception/msgs/frame.proto";
 
 message Dynamics
