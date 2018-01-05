@@ -1,3 +1,5 @@
+syntax = "proto2";
+
 package roboception.msgs;
 option java_package = "com.roboception.msgs";
 option java_outer_classname = "PoseStampedProtos";
