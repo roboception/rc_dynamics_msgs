@@ -27,4 +27,5 @@ message Dynamics
   repeated double covariance                  = 10 [packed=true]; // Row-major representation of the 15x15 covariance matrix
   optional Frame cam2imu_transform            = 11; // pose of the left camera wrt. the IMU frame
   optional bool possible_jump                 = 12; // True if there possibly was a jump in the pose estimation
+  optional string producer                    = 13; // Name of the producer of this data
 }
